@@ -13,7 +13,7 @@ export async function POST(request){
             published: true,
             author: {
                 create:{
-                    name: 'Hasantha'
+                    name: 'Premil Jayasundara'
                 }
             }
         }

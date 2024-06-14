@@ -6,6 +6,7 @@ export default function Post({id, title, content, authorName}){
             <h3>{authorName}</h3>
             <h4>{title}</h4>
             <p>{content}</p>
+            <p>{id}</p>
             <DeleteButton postId={id}/>
         </div>
     )
